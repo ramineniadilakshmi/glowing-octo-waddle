@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    form {
+      margin: 5% 50% 0 40%;
+    }
+
+    body {
+      background-image: url("https://wheretogonext.me/wp-content/uploads/2022/08/alps.jpg");
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    #listofitems li {
+  color: white;
+}
+
+  </style>
+</head>
+
+<body>
+  <h2 style="text-align: center; padding: 30px 0 10px 0; color;"> Book a Appointment</h2>
+  <p style="text-align: center;">Book a Appointment with Dr <strong>Adhi.</strong></p>
+  <form action="#" onsubmit="submitdetails(event)">
+
+    <label>First Name</label>
+    <br>
+    <input type="text" placeholder="Enter your First Name" id="fname" required>
+    <br>
+    <br>
+    <label>Last Name</label>
+    <br>
+    <input type="text" placeholder="Enter your Last Name" id="lname" required>
+    
+    <br>
+    <br>
+    <label>Mobile No</label>
+    <br>
+    <input type="number" placeholder="Enter your Mobile No" id="mobile" required>
+    
+    <br>
+    <br>
+    <button style="background: green;
+          color: black;
+          border-style: outset;
+          border-color: black;
+          height: 30px;
+          width: 80px;
+          font: bold15px arial,sans-serif;
+          text-shadow: none;">Submit</button>
+
+  
+
+
+  </form>
+
+
+  <ul id="listofitems"></ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
